@@ -8,6 +8,7 @@ namespace Projeto_Parte01
         public static void imprimirTabuleiro(Tabuleiro tab)
         {
             for (int i=0; i<tab.linhas; i++) {
+                Console.Write(8 - i + " ");
                 for (int j=0; j<tab.colunas; j++) {
                     if (tab.peca(i, j) == null) {
                         Console.Write("- ");
