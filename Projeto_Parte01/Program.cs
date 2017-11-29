@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using tabuleiro;
 
 namespace Projeto_Parte01
 {
@@ -10,6 +11,14 @@ namespace Projeto_Parte01
     {
         static void Main(string[] args)
         {
+
+            Posicao P;
+
+            P = new Posicao(3, 4);
+
+            Console.WriteLine("Posicao: " + P);
+
+            Console.ReadLine();
         }
     }
 }
