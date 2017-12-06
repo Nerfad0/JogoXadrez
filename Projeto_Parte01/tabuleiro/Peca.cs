@@ -21,6 +21,5 @@
         }
 
         public abstract bool[,] movimentosPossiveis();
-
     }
 }
